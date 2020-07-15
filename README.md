@@ -13,34 +13,29 @@ I have been deployed as a Data Scientist. As part of my assignment, I am require
 
 Add the following to my sprint 2 MySQL data using Python:
 
-1. Add more products and their brands
-2. Create more columns to your products. 
-3. Create separate tables for each product
+1. Add my data to a mysql database server. 
+2. Create table and add my.csv file to my workbench 
+3. Import that data and use the matplotlib module to make a visual graph
 
 ## Description of coding practices
   
   1. To start of, import the pandas as pd (Module). (depending on your IDE you may have to install panda first befor importing the module)
   
-  2. Create dataframe and store values. 
+  2. Create a MySQL server and workbench to store values in the table  
   
-  3. During the code i had the following error: "ValueError: arrays must all be same length"
-       - What this means is that the values stored must be of the same length. 
-         If you note in the above we have 7 Values, 6 of those values have two products/ arrays only one has three.
-         Now what we have to do is to create empty strings to the rown that has two products. This should then make your arrays be of same length.
-         
-  4. Be sure you have Pands installed in your IDE or you will receive error "ModuleNotFoundError: No module named 'Pandas' " when importing pandas
+   
+  3. Be sure you have Pands installed in your IDE or you will receive error "ModuleNotFoundError: No module named 'Pandas' " when importing pandas
       The following IDE comes with pands package when installed
       
-  # Sprint 2
-  # Data Science
  
- 5. Install MySQL 
- 6. Add more products and their brands.
- 7. Create seperate tables for each product
+ 4. Import matplotlib 
+  
+ 5. Import mysql.connector
  
  
 ## Technologies 
  Python
+MySQL & MySQL workbench 
  
  # IDE:
  Anaconda3: Jupyter Notebook 6.0.3
